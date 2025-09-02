@@ -1,0 +1,11 @@
+        body {background-color: #FFFDD0;}
+        p {color: pink;}
+        div a {color: blue;}
+        #car-links a {color: brown;}
+        nav a {color: red;}
+        a {color: #ff00ff}
+        a {color: green}
+        #conclusion {color: purple; background-color: green;}    
+        h2 {color: orange; background-color: blue; text-decoration: line-through;}
+
+        .s-car {color: yellow; background-color: black; text-decoration: underline}
