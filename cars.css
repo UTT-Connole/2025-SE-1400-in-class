@@ -1,11 +1,38 @@
-        body {background-color: #FFFDD0;}
-        p {color: pink;}
-        div a {color: blue;}
-        #car-links a {color: brown;}
-        nav a {color: red;}
-        a {color: #ff00ff}
-        a {color: green}
-        #conclusion {color: purple; background-color: green;}    
-        h2 {color: orange; background-color: blue; text-decoration: line-through;}
+ body {background-color: #FFFDD0;
+         font-family:Georgia, serif;
+ }
 
-        .s-car {color: yellow; background-color: black; text-decoration: underline}
+ #car-description span {
+        color:brown;
+ }
+
+ #car-description {
+        color:purple;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid black;
+}
+
+#bob{
+        color: pink;
+}
+
+.bob{
+        width: 500px;
+        border: 4px solid red;
+        color: blue;
+}
+
+ p {color: pink;}
+ div a {color: blue;}
+ #car-links a {color: brown;}
+ nav a {color: red;}
+ a {color: #ff00ff}
+ a {color: green}
+ #conclusion {color: purple; background-color: green;}    
+ h2 {color: orange; background-color: blue; text-decoration: line-through;}
+
+ .s-car {color: yellow; background-color: black; text-decoration: underline}
+
+ sub {color: lightblue;}
