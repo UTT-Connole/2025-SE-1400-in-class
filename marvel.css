@@ -1,0 +1,42 @@
+        h2 {
+            color: green;
+            padding: 10px;
+        }
+        .ironManRed {
+            background-color: #da1f28;
+        }
+
+        .greenText {
+            color:green;
+            
+        }
+
+        div p {
+            background-color: #da1f28;
+        }
+
+        p {
+            background-color: #1f8f90;
+            font-size: 2em;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        body {
+            background-color: #ff00ff;
+            margin: 5px;
+        }
+
+        div {
+            background-color: yellow;
+        }
+        #superCoolBox {
+            width: 89vw;
+            height: 200px;
+            background-color: #1f8f90;
+            border: 2px solid black;
+            margin: 20px auto;
+        }
+
+        #parent {
+            width: 300px;
+        }
