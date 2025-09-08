@@ -1,0 +1,28 @@
+h1 {
+    border: 10px inset  blue;
+    border-left-color: green;
+    border-top-color: green;
+    color: red;
+    display: inline;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+
+a {
+    border: 3px inset blue;
+    color: red;
+    display: block;
+    border-bottom-right-radius: 15px;
+}
+
+img.stretch {
+    width: 300px;
+    height: 1000px;
+}
+
+body {
+    background-image: url('cuteSanderson.jpg');
+}
