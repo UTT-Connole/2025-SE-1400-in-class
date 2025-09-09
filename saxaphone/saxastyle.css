@@ -1,0 +1,39 @@
+
+.border {
+    border: 40px solid blue;
+    color: red;
+    border-color: green;
+    padding: 15px;
+    padding-top: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    border-style: groove;
+
+}
+
+h1 {
+    display: inline;
+}
+
+a {
+    display: block;
+}
+
+.borderBottom {
+    border-bottom: 2px dashed purple;
+}
+
+body {
+    background-image: url(seinfeld-kramer.gif);
+    background-repeat: repeat-y;
+}
+
+img {
+    border: 5px solid orange;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-top-left-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    opacity: 0.8;
+}
