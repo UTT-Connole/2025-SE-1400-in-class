@@ -40,3 +40,9 @@
         #parent {
             width: 300px;
         }
+
+        .green {
+            color: green;
+        }
+
+        .ut {color: red}

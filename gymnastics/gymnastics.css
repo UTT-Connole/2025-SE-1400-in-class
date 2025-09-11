@@ -1,0 +1,11 @@
+
+h1 span {
+    border: 3px solid blue;
+}
+
+#gymhero { 
+    background-image: url(images/gymhero.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
