@@ -9,3 +9,25 @@ h1 span {
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+img {
+    width: 600px;
+    box-shadow: 5px 5px 5px black;
+}
+
+body {
+    /* background: linear-gradient(red, blue); */
+    background-attachment: fixed;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 600px;
+}
+
+p {
+    width: 800px;
+    height: 800px;
+    color: blue;
+    background-image: url(images/gymhero.jpeg);
+    background-repeat: no-repeat;
+}
