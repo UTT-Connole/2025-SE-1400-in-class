@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(90deg, #f4b900 0%, #d52d12 100%);
+    color: #fff;
+    min-height: 100vh;
+}
+header {
+    background: rgba(0,0,0,0.7);
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+header h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #ffd600;
+    text-shadow: 2px 2px 8px #000;
+}
+header p {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: #fffde7;
+}
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    padding: 2rem;
+}
+.poster {
+    display: block;
+    margin: 0 auto 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    width: 250px;
+    max-width: 100%;
+}
+h2 {
+    color: #ffd600;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 1.5rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li::before {
+    content: "🦸‍♂️";
+    margin-right: 0.5em;
+}
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    color: #fffde7;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+.content-1 {
+    padding: 10px;
+    box-sizing: content;
+}
+
+.content-2 {
+    width: 200px;
+    border: 10px solid pink;
+    padding: 15px;
+    box-sizing: border-box;
+}   
+
+
+li {
+    border: 5px solid green;
+}
+* {
+    border: 5px solid black;
+}
+
+.poster {
+    border: 5px solid blue;
+    float: left;
+    margin-right: 15px;
+}
+
+.poster:hover {
+    transform: rotate(-36000000000000deg);
+    transition: transform 100000s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+    
+    height: 700px;
+}
+
+nav a {
+    color: white;
+    flex: 1;
+}
+
+.special {
+    color: yellow;
+    align-self: center;
+    flex: 5
+}
