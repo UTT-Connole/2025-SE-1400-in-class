@@ -1,0 +1,32 @@
+
+
+th {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #333f66;
+    color: white;
+}
+
+tr td[rowspan] {
+    font-weight: bold;
+    background-color: pink;
+    color: black;
+}
+
+tr td[colspan] {
+    font-style: italic;
+    background-color: lightgreen;
+    color: black;
+}
+
+td {
+    padding: 7px;
+}
+
+th {
+    padding: 10px;
+}

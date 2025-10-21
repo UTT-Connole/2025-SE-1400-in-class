@@ -1,0 +1,30 @@
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr {
+    background-color: #7a5901;
+}
+
+thead tr:first-child {
+    background-color: pink;
+}
+
+tbody tr:nth-child(even) {
+    background-color: purple;
+    color: white;
+}
+
+tr td[rowspan]{
+    background-color: #7a5901;
+    color: black;
+}
