@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #2c1810;
+    color: #f4f4f4;
+}
+
+.header {
+    text-align: center;
+    background-color: #8b4513;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: #3d2817;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #39ff14;
+}
+
+.price {
+    color: #39ff14;
+    font-weight: bold;
+}
+
+#complaint-form {
+    display: flex;
+    flex-flow: column;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+}
+
+fieldset {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+}
+
+fieldset label { 
+    text-align: right;
+}
