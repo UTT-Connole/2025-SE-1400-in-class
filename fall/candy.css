@@ -1,0 +1,28 @@
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: red;
+}
+
+th[colspan="5"] {
+    background-color: green;
+    color: white;
+}   
+
+thead tr:first-child th {
+    background-color: orange;
+}
+
+tbody tr td[rowspan] {
+    background-color: grey;
+
+}
