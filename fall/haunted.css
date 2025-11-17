@@ -1,0 +1,77 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header,
+main,
+footer {
+    max-width: 900px;
+    margin: auto;
+    padding: 1.25rem;
+}
+
+header {
+    padding-top: 2rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+    transform: rotate(-6deg);
+    margin-bottom: 0;
+    transition: margin-bottom 1s;
+}
+
+h1:hover,h2:hover,h3:hover {
+    margin-bottom: 100px;
+    transition: margin-bottom 1s;
+}
+
+
+
+section {
+    margin-block: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+    border: 1px solid color-mix(in oklab, CanvasText 20%, Canvas 80%);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+small,
+footer {
+    color: color-mix(in oklab, CanvasText 35%, Canvas 65%);
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+video {
+    height: 300px;
+    width: 400px;
+    float: right;
+    border: pink 5px solid;
+    transform: rotate(0deg);
+    transition: transform 5s;
+}
+
+video:hover {
+    transform: rotate(90deg);
+    transition: transform 5s;
+}
+
